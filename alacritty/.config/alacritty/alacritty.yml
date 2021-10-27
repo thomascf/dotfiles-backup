@@ -1,2 +1,6 @@
 shell:
   program: /bin/zsh
+
+font:
+  normal:
+    family : JetBrainsMono Nerd Font 
