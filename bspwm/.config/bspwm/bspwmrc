@@ -32,7 +32,9 @@ picom --experimental-backend
 
 
 #Start/Restart Polybar
-killall -q polybar
-polybar main
+killall -q polybar 
+polybar main &
 
+dunst &
+playerctld daemon
 #.config/bspwm/1scripts/cleanfullscreen.sh &

@@ -22,7 +22,7 @@ radius = 12
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = bspwm hostname
+modules-left = hostname bspwm
 modules-center = title
 modules-right = cpu memory wifi ethernet time battery
 tray-position = right
